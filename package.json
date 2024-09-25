@@ -1,0 +1,17 @@
+{
+  "name": "video-bot",
+  "version": "1.0.0",
+  "description": "Bot para criar videos para TikTok",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.10",
+    "axios": "^1.4.0",
+    "canvas": "^2.11.2",
+    "fluent-ffmpeg": "^2.1.3",
+    "node-gtts": "^2.0.0",
+    "whammy": "^0.0.1"
+  }
+}

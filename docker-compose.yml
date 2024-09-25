@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  video-bot:
+    build:
+      context: .
+      dockerfile: dockerfile
+    container_name: video-bot
+    volumes:
+      - .:/app
+    stdin_open: true
+    tty: true
